@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#3399ff">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Your Accounts"
+    android:textColor="#FFF"
+    android:textSize="42sp"
+    android:layout_marginTop="24dp"
+    android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the account for more information :"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="#404040"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+
+<Button
+    android:id="@+id/checkings"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="1. Checkings"
+    android:fontFamily="sans-serif-light"
+    android:textAllCaps="false"
+    android:textColor="#FFF"
+    android:textSize="30sp"
+    android:textStyle="italic"
+    android:background="@drawable/bottom_line"
+    android:textAlignment="textStart"
+    android:layout_gravity="start"
+    android:layout_marginTop="56dp"/>
+
+<Button
+    android:id="@+id/savings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="2. Savings"
+    android:fontFamily="sans-serif-light"
+    android:textAllCaps="false"
+    android:textColor="#FFF"
+    android:textStyle="italic"
+    android:textSize="30sp"
+    android:background="@drawable/bottom_line"
+    android:textAlignment="textStart"
+    android:layout_gravity="start"
+    android:layout_marginTop="0dp" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:text="Logout"
+    android:textStyle="italic"
+    android:textColor="#666"
+    android:textSize="20sp"
+    android:background="#FFF"
+    android:layout_marginTop="48dp"
+    android:layout_gravity="center"/>
+
+</LinearLayout>
