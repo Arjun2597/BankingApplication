@@ -1,12 +1,8 @@
 package com.example.android.bankingapplication;/*
  */
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +24,19 @@ public class LoginActivity extends Activity {
                 startActivity(accountIntent);
             }
         });
+
+
+        Button profile = (Button) findViewById(R.id.profile);
+
+        assert profile != null;
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent profileIntent = new Intent(LoginActivity.this, ProfileActivity.class);
+                startActivity(profileIntent);
+            }
+        });
+
 
     }
 }
