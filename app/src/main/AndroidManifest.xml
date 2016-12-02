@@ -18,12 +18,12 @@
         <activity
             android:name=".LoginActivity"
             android:label="LoginActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".AccountActivity"
             android:label="AccountActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
-        <activity android:name=".ProfileActivity"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".ProfileActivity"/>
     </application>
 
 </manifest>
